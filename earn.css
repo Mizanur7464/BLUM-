@@ -1,0 +1,71 @@
+.earn-section {
+    padding: 20px;
+}
+
+.earn-card {
+    background: #111;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.earn-card:hover {
+    background: #222;
+}
+
+.earn-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.earn-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earn-info {
+    flex-grow: 1;
+}
+
+.earn-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.earn-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.fa-chevron-right {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Animation for cards */
+.earn-card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
